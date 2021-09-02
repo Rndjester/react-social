@@ -1,0 +1,81 @@
+.login__form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  width: 400px;
+  position: relative;
+}
+.login__form h1 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.login__label {
+  margin-bottom: 15px;
+  position: relative;
+}
+.login__label.label {
+  display: block;
+}
+.login__label-text {
+  margin-bottom: 5px;
+}
+.login__button {
+  background-color: #c8edb7;
+  margin: 0;
+  width: 200px;
+}
+.login__close {
+  color: #000;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  width: 21px;
+  height: 21px;
+  right: -30px;
+  top: 10px;
+}
+.login__close::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  width: 30px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.login__close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  width: 30px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.login__errors {
+  color: red;
+  font-size: 12px;
+  height: 12px;
+  position: absolute;
+  margin-top: -15px;
+}
+
+label.error {
+  color: red;
+}
+label.error input {
+  border: 1px solid red;
+}
+label.error span {
+  position: absolute;
+  color: red;
+  bottom: -15px;
+  left: 0;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=Login.css.map */

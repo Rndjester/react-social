@@ -1,0 +1,62 @@
+.profile__top {
+  padding: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 59px;
+}
+.profile__wrap {
+  min-height: 100vh;
+  border-left: 1px solid rgba(210, 212, 210, 0.5);
+}
+.profile__wrap .input__text {
+  margin: 5px 0;
+  margin-left: 15px;
+  height: 30px;
+}
+.profile__wrap .button {
+  margin: 15px 0;
+}
+.profile__item {
+  position: relative;
+  width: 700px;
+  height: 250px;
+  background: url("https://naturae.ru/foto/kuchevye-oblaka.jpg");
+}
+.profile__avatar {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 100px;
+  bottom: -50px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.profile__avatar img {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  width: 100%;
+}
+.profile__info {
+  padding: 15px;
+}
+.profile__name {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.profile__about {
+  margin: 15px 0;
+}
+.profile__link {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.profile__link-name {
+  font-weight: 500;
+}
+.profile__link-item {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=profile.css.map */

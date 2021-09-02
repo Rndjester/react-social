@@ -1,0 +1,25 @@
+.navbar {
+  grid-area: navbar;
+  margin-top: 10px; }
+  .navbar__item-link {
+    display: flex;
+    font-size: 20px;
+    color: #292929;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: 500; }
+    .navbar__item-link:hover {
+      background-color: #c8edb7;
+      transition: 0.25s; }
+  .navbar__icon {
+    max-width: 30px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .navbar__icon img {
+      width: 100%; }
+
+/*# sourceMappingURL=Navbar.css.map */

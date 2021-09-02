@@ -1,0 +1,25 @@
+.header {
+  border-left: 1px solid rgba(210, 212, 210, 0.5);
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(210, 212, 210, 0.5);
+  padding-right: 15px;
+  height: 60px;
+}
+.header__logo {
+  padding-left: 15px;
+  max-width: 55px;
+  max-height: 40px;
+}
+.header__logo > img {
+  width: 100%;
+}
+
+.login__block {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=Header.css.map */
